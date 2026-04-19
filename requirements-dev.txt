@@ -1,10 +1,6 @@
 # ......... Documentation
 mkdocs-material==9.6.20
 
-# ......... AZD Template
-mkdocs-material==9.6.20
+# ......... Microsoft Foundry
 
-# ......... Other
-#-r src/requirements.txt
-#ruff
-#pre-commit
+# ......... Hosted Agents

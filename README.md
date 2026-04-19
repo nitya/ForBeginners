@@ -1,46 +1,38 @@
 
 <div style="background: linear-gradient(90deg, #4C1D95 0%, #1E40AF 25%, #0EA5E9 50%, #06B6D4 75%, #87CEEB 100%); padding: 20px 20px; border-radius: 10px; margin: 20px 0;">
   <h1 style="color: white; text-align: center; margin: 0; font-size: 2em; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">
-    For Beginners: An AZD Project
+    Hosted Agents: For Beginners Template
   </h1>
   <p style="color: white; text-align: center; margin: 0 0 0 0; font-size: 1em; opacity: 0.9;">
-   A customized "Getting Started with AI Agents" template for learners
+   A custom "Get Started with Hosted Agents" template
   </p>
 </div>
 
-
-
 > [!IMPORTANT]
 >
-> 🚨 **This repository is under active development and is not meant for public use - yet. This notice will be removed once we hit a stable version (ETA: Oct 17, 2025). Please wait to file issues until that time.**
+> **Apr 2026** - This is an experimental branch to create a Hosted Agents compatible starter template for use in labs and workshops. 
 
-## For Beginners: Template
 
-This project contains setup scripts and a customized version of the [get-started-with-ai-agents](https://github.com/Azure-Samples/get-started-with-ai-agents/tree/main) starter template for Azure AI Foundry.
+## For Beginners: An AZD Template
 
-Our objectives are: 
+This repository contains the starter template for a Hosted Agents workshop or lab that uses the Zava Retail data with a multi-agent scenario. The objective is to have the template support the following features out of the box:
 
-1. Create scripts to customize the base template for our 1P workshops (with Skillable)
-1. Maintain a customized template for reuse in our {AZD/Models}-For-Beginners curricula
-1. Maintain event-specific branches that freeze stable versions for a given workshop.
+- A Foundry project and resource created by default in `swedencentral`
+- A Foundry model and prompt agent deployed by default in project
+- A Hosted agent deployed by default with `src/` containing code
+- AppInsights and LogAnalytics workspaces setup for tracing
+- All relevant roles/permissions defined & configured for development
 
-Note that this means the version of the template here may be different from the base starter template in terms of the default configuration used.
+With this basis, we can then develop workshop content in a `labs/` section that allows learners to explore, extend, and customize, the template - **with GitHub Copilot, Foundry Toolkit, and Foundry Skills* support.
 
-_We encourage the community to fork and extend this repository for their own Azure AI Foundry workshops or learning journeys - and file issues with bugs or feedback._
-
-## AZD For Beginners: Workshop
-
-Not familiar with [AZD templates](https://learn.microsoft.com/azure/developer/azure-developer-cli/azd-templates?tabs=csharp)? Explore the new [AZD For Beginners](https://github.com/microsoft/azd-for-beginners) curriculum for a step-by-step introduction to the [Azure Developer CLI](https://aka.ms/azd) and fundamentals of AZD templates.
-
-This _For Beginners Template_ project also powers the [AZD For AI Developers](https://github.com/microsoft/AZD-for-beginners/tree/main/workshop) workshop that is part of that curriculum. This of this template as a _learning sandbox_ where you can deconstruct a completely functioning template to figure out how it works. Then reconstruct it with your data, and customize it to your specific scenario or requirements!
+## Foundry Skills Workshop
 
 ## Related Resources
 
-1. [Azure Developer CLI](https://learn.microsoft.com/azure/developer/azure-developer-cli/) - documentation & reference
-1. [Awesome AZD](https://aka.ms/awesome-azd) - template gallery for Azure
-1. [AI App Templates](https://ai.azure.com/templates) - curated for Azure AI Foundry
-1. [AZD For Beginners](https://github.com/microsoft/azd-for-beginners) - open-source curriculum 
 
+<br/>
+
+--- 
 
 
 ## Contributing
